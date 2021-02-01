@@ -18,7 +18,7 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
 - kind: static vs instance vs constructor
 - effect: observer vs mutator
 
-# TODO
+# Your job
 
 1. Create a suitable Java project and add `Lab1.java` as a source file.
 1. Run the program and record the output; for example, cut and paste it into a new file `output.txt` in your project.
