@@ -10,13 +10,13 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
 
 ## Variables
 
-- final vs nonfinal
+- modifiability: final vs nonfinal
 - scope: field (class/instance var) vs method argument vs local variable (can be nested)
 
 ## Methods
 
-- static vs instance vs constructor
-- observer vs mutator
+- kind: static vs instance vs constructor
+- effect: observer vs mutator
 
 # TODO
 
