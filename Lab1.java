@@ -41,8 +41,11 @@ public class Lab1 {
         System.out.println(inst2.method1());
         System.out.println(inst2.method2("hello there"));
         System.out.println(inst2.method3(99));
-        inst2.method4()
+        inst2.method4();
         System.out.println(inst2.var4);
+        
+        final Lab1 inst4 = new Lab1(77);
+        System.out.println(inst4.var4);
     }
     
     public int method1() {
