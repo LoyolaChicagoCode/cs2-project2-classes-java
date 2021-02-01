@@ -27,6 +27,7 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
     - What is the difference between `inst1`, `inst2`, and `inst3`?
     - Why is `main` able to access `var3` and `var4` even though those are private?
     - Why is `main` able to access `var1` and `var2` without going through an instance?
+    - What is happening when we modify `inst2.var2` and then print `inst1.var2`?
     - What is happening on line 12 (in the second `Lab1` constructor)?
     - What is happening in `method3`?
     - Why can't we print the result of `method4`?
