@@ -46,6 +46,9 @@ public class Lab1 {
         
         final Lab1 inst4 = new Lab1(77);
         System.out.println(inst4.var4);
+        
+        System.out.println(var1);
+        System.out.println(var2);
     }
     
     public int method1() {
