@@ -4,10 +4,13 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
 
 # Design space
 
+## All members
+
+- access: public vs private (vs anything else?)
+
 ## Variables
 
 - final vs nonfinal
-- access (public vs private vs ???)
 - scope: field (class/instance var) vs method argument vs local variable (can be nested)
 
 ## Methods
