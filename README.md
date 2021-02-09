@@ -1,4 +1,6 @@
-# Overview
+# Loyola COMP 271 Lab 1: Classes
+
+## Group assignment
 
 In this lab, based on chapter 8 of the BJP text, we are going to explore class and object structures in Java.
 
@@ -31,4 +33,4 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
     - What is happening on line 12 (in the second `Lab1` constructor)?
     - What is happening in `method3`?
     - Why can't we print the result of `method4`?
-1. Export your project as a zip file and submit it as an attachment in Sakai.
+1. Export your project as a zip file and submit it (individually) as an attachment in Sakai.
