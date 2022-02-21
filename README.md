@@ -1,5 +1,7 @@
 # Loyola COMP 271 Lab 1: classes
 
+## TODO grading rubric
+
 ## Group activity
 
 In this lab, based on chapter 8 of the BJP text, we are going to explore class and object structures in Java.
