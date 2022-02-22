@@ -37,3 +37,9 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
     - Why can't we print the result of `reportStatus`?
     - Can you think of a better way to print a station's info than printing each instance variable separately?
 1. Export your project as a zip file and submit it (individually) as an attachment in Sakai.
+
+# Grading (total 3.5 points)
+
+- 1 project
+- 0.5 output
+- 2 answers to questions
