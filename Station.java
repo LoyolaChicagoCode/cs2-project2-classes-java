@@ -1,10 +1,10 @@
 public class Station {
 
-    public final double LOOP_LAT = 41.88204;
-    public final double LOOP_LON = -87.62790;
-
     public final static String city = "Chicago";
     public static double fare = 2.25;
+
+    public final static double LOOP_LAT = 41.88204;
+    public final static double LOOP_LON = -87.62790;
 
     private final double lat;
     private double lon;
