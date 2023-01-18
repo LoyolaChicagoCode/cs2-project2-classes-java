@@ -1,7 +1,5 @@
 # Loyola COMP 271 Lab 1: classes
 
-## TODO grading rubric
-
 ## Group activity
 
 In this lab, based on chapter 8 of the BJP text, we are going to explore class and object structures in Java.
@@ -38,8 +36,9 @@ In this lab, based on chapter 8 of the BJP text, we are going to explore class a
     - Can you think of a better way to print a station's info than printing each instance variable separately?
 1. Export your project as a zip file and submit it (individually) as an attachment in Sakai.
 
-# Grading (total 3.5 points)
+# Grading (total 5 points)
 
-- 1 project
-- 0.5 output
+- 1 submission via Replit
+- 1 program compiles and runs
+- 1 correct output
 - 2 answers to questions
