@@ -67,7 +67,7 @@ class Main {
     inst5.lon = inst5.lon + 0.012;
 
     System.out.println(inst5.name);
-    System.out.println(city);
-    System.out.println(fare);
+    System.out.println(Station.city);
+    System.out.println(Station.fare);
   }
 }
