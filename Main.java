@@ -17,40 +17,40 @@ class Main {
 
     System.out.print(granville.city);
     System.out.print("/");
-    System.out.print(granville.name);
-    System.out.print(" (" + granville.line + " line)");
+    System.out.print(granville.getName());
+    System.out.print(" (" + granville.getLine() + " line)");
     System.out.print(" located at ");
-    System.out.print(granville.lat);
+    System.out.print(granville.getLatitude());
     System.out.print(",");
-    System.out.print(granville.lon);
+    System.out.print(granville.getLongitude());
     System.out.println();
 
     System.out.print(thorndale.city);
     System.out.print("/");
-    System.out.print(thorndale.name);
-    System.out.print(" (" + thorndale.line + " line)");
+    System.out.print(thorndale.getName());
+    System.out.print(" (" + thorndale.getLine() + " line)");
     System.out.print(" located at ");
-    System.out.print(thorndale.lat);
+    System.out.print(thorndale.getLatitude());
     System.out.print(",");
-    System.out.print(thorndale.lon);
+    System.out.print(thorndale.getLongitude());
     System.out.println();
 
     granville.fare = 2.75;
     granville.setName("Wilson");
 
     System.out.println();
-    System.out.println(loyola.name);
+    System.out.println(loyola.getName());
     System.out.println(loyola.fare);
     System.out.println();
 
     System.out.print(inst4.city);
     System.out.print("/");
-    System.out.print(inst4.name);
-    System.out.print(" (" + inst4.line + " line)");
+    System.out.print(inst4.getName());
+    System.out.print(" (" + inst4.getLine() + " line)");
     System.out.print(" located at ");
-    System.out.print(inst4.lat);
+    System.out.print(inst4.getLatitude());
     System.out.print(",");
-    System.out.print(inst4.lon);
+    System.out.print(inst4.getLongitude());
     System.out.println();
 
     System.out.println();
@@ -59,14 +59,14 @@ class Main {
     granville.relocate(0.012);
     System.out.println("new distance from loop: " + granville.distanceFromLoop() + " degrees");
     granville.changeName();
-    System.out.println(granville.name);
+    System.out.println(granville.getName());
     System.out.println();
 
     final Station inst5 = new Station();
-    inst5.name = "Wilson";
-    inst5.lon = inst5.lon + 0.012;
+    inst5.setName("Wilson");
+    inst5.setLongitude(inst5.getLongitude() + 0.012);
 
-    System.out.println(inst5.name);
+    System.out.println(inst5.getName());
     System.out.println(Station.city);
     System.out.println(Station.fare);
   }

@@ -6,7 +6,7 @@ public class Station {
   public final static double LOOP_LAT = 41.88204;
   public final static double LOOP_LON = -87.62790;
 
-  private final double lat;
+  private double lat;
   private double lon;
   private String name = "Loop";
   private final String line;
@@ -29,6 +29,10 @@ public class Station {
     return name;
   }
 
+  public void setName(final String name) {
+    this.name = name;
+  }
+
   public String getLine() {
     return line;
   }
@@ -37,8 +41,16 @@ public class Station {
     return lat;
   }
 
+  public void setLatitude(final double lat) {
+    this.lat = lat;
+  }
+
   public double getLongitude() {
     return lon;
+  }
+
+  public void setLongitude(final double lon) {
+    this.lon = lon;
   }
 
   public double distanceFromLoop() {
