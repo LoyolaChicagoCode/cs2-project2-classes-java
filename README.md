@@ -1,4 +1,4 @@
-# Loyola COMP 271 Lab 1: classes
+# Loyola COMP 271 Project 2: classes
 
 ## Group activity
 
